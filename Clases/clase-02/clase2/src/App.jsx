@@ -1,6 +1,6 @@
 import "./App.css";
 import Boton from "./components/Boton";
-import ListaEstudiantes from "./components/ListaEstudiantes";
+import ListaEstudiante from "./components/ListaEstudiantes";
 
 function App() {
   return (
@@ -10,9 +10,7 @@ function App() {
 
         <p>Esto es un parráfo, de ejemplo en React y Vite.</p>
         <Boton />
-        <ListaEstudiantes nombre='Juan Perez' edad='25' />
-        <ListaEstudiantes nombre='Pedro Gomez' edad='30' />
-        <ListaEstudiantes nombre='Maria Lopez' edad='21' />
+        <ListaEstudiante />
       </div>
     </>
   );
