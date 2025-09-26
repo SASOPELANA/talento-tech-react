@@ -1,17 +1,18 @@
 import "./App.css";
-import Boton from "./components/Boton";
-import ListaEstudiante from "./components/ListaEstudiantes";
+import Header from "./clase-03/Header.jsx";
+import Nav from "./clase-03/Nav.jsx";
+import Footer from "./clase-03/Footer.jsx";
+import Gallery from "./clase-03/Gallery.jsx";
+import Boton from "./clase-04/Boton.jsx";
 
 function App() {
   return (
     <>
-      <div>
-        <h1>Mi aplicacion de React</h1>
-
-        <p>Esto es un parráfo, de ejemplo en React y Vite.</p>
-        <Boton />
-        <ListaEstudiante />
-      </div>
+      <Header />
+      <Nav />
+      <Gallery />
+      <Boton />
+      <Footer />
     </>
   );
 }
