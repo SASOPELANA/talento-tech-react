@@ -1,6 +1,5 @@
 import Productos from "../clase-05/Productos";
 
-
 function Inicio() {
   return (
     <>

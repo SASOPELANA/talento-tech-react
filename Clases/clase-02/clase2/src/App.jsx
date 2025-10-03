@@ -10,6 +10,7 @@ import Clicker from "./clase-05/Clicker.jsx";
 import { Route, Routes } from "react-router-dom";
 import Inicio from "./clase-06/Inicio.jsx";
 import Contacto from "./clase-06/Contacto.jsx";
+import DetalleProducto from "./clase-06/DetalleProducto.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path={"/"} element={<Inicio />} />
         <Route path={"/contacto"} element={<Contacto />} />
+        <Route path={'producto/:id'} element={<DetalleProducto/>} />
       </Routes>
       <Footer />
     </>
