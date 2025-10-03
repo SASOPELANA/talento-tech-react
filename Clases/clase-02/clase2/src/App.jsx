@@ -7,15 +7,20 @@ import Boton from "./clase-04/Boton.jsx";
 import Formulario from "./clase-04/Formulario.jsx";
 import Carrito from "./clase-04/Carrito.jsx";
 import Clicker from "./clase-05/Clicker.jsx";
-import Productos from "./clase-05/Productos.jsx";
+import { Route, Routes } from "react-router-dom";
+import Inicio from "./clase-06/Inicio.jsx";
+import Contacto from "./clase-06/Contacto.jsx";
 
 function App() {
   return (
     <>
       <Header />
       <Nav />
-      <Clicker />
-      <Productos />
+
+      <Routes>
+        <Route path={"/"} element={<Inicio />} />
+        <Route path={"/contacto"} element={<Contacto />} />
+      </Routes>
       <Footer />
     </>
   );

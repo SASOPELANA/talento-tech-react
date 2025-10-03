@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Nav = () => {
   return (
     <nav style={{ backgroundColor: "#333", color: "white", padding: "10px" }}>
@@ -10,19 +12,19 @@ const Nav = () => {
         }}
       >
         <li>
-          <a href="#" style={{ color: "white", textDecoration: "none" }}>
+          <Link to={'/'} >
             Inicio
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#" style={{ color: "white", textDecoration: "none" }}>
+          <Link>
             Acerca de
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#" style={{ color: "white", textDecoration: "none" }}>
+          <Link to={'contacto'}>
             Contacto
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
