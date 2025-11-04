@@ -14,6 +14,7 @@ const Productos = () => {
         setCargando(false);
       })
       .catch((error) => {
+        console.error(error);
         setError("Ha Ocurrido un error...");
         setCargando(false);
       });

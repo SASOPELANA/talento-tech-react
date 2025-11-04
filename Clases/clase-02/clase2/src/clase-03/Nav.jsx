@@ -12,19 +12,13 @@ const Nav = () => {
         }}
       >
         <li>
-          <Link to={'/'} >
-            Inicio
-          </Link>
+          <Link to={"/"}>Inicio</Link>
         </li>
         <li>
-          <Link>
-            Acerca de
-          </Link>
+          <Link to={"admin"}>Admin</Link>
         </li>
         <li>
-          <Link to={'contacto'}>
-            Contacto
-          </Link>
+          <Link to={"contacto"}>Contacto</Link>
         </li>
       </ul>
     </nav>
